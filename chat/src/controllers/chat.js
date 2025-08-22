@@ -1,7 +1,7 @@
 import axios from "axios";
 import dotenv from "dotenv";
 import TryCatch from "../config/TryCatch.js";
-import { Chat } from "../models/Chat.js";
+import { Chat } from "../models/chat.js";
 import { Messages } from "../models/Messages.js";
 import { getReceiverSocketId, io } from "../config/Socket.js";
 dotenv.config();
